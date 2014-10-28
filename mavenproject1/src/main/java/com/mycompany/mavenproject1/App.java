@@ -14,4 +14,8 @@ public class App
     public static boolean alwaysTrue(){
         return true;
     }
+    
+    public static boolean alwaysFalse(){
+        return true;
+    }
 }

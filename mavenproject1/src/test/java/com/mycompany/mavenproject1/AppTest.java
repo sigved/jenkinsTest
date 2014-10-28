@@ -39,4 +39,8 @@ public class AppTest
     public void testAlwaysTrue(){
         assertTrue(App.alwaysTrue());
     }
+    
+    public void testAlwaysFalse(){
+        assertFalse(App.alwaysFalse());
+    }
 }
