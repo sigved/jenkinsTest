@@ -51,4 +51,8 @@ public class AppTest
             fail("constructor fails");
         }
     }
+    
+    public void testMain(){
+        App.main(new String[]{});
+    }
 }
