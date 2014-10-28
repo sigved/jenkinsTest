@@ -43,4 +43,12 @@ public class AppTest
     public void testAlwaysFalse(){
         assertFalse(App.alwaysFalse());
     }
+    
+    public void testConstructor(){
+        try{
+            App app = new App();
+        }catch(Exception e){
+            fail("constructor fails");
+        }
+    }
 }
