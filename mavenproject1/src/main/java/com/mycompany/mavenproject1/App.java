@@ -16,7 +16,7 @@ public final class App {
      * @param args command line arguments
      */
     public static void main(final String[] args) {
-        System.out.println("Hello World23!");
+        System.out.println("Hello World234!");
     }
 
     /**
@@ -24,7 +24,7 @@ public final class App {
      * @return true
      */
     public static boolean alwaysTrue() {
-        return true;
+        return false;
     }
 
     /**
