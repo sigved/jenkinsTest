@@ -4,19 +4,34 @@ package com.mycompany.mavenproject1;
  * Hello world!
  *
  */
-public class App{
-    private App(){
+public class App {
+    /**
+     * private constructor, this is a utility class
+     */
+    private App() {
     }
-    public static void main(String[] args)
-    {
+    
+    /**
+     * the main method
+     * @param args command line arguments
+     */
+    public static void main(final String[] args) {
         System.out.println("Hello World23!");
     }
-    
-    public static boolean alwaysTrue(){
+
+    /**
+     * this is always true
+     * @return true
+     */
+    public static boolean alwaysTrue() {
         return true;
     }
-    
-    public static boolean alwaysFalse(){
+
+    /**
+     * always false
+     * @return false
+     */
+    public static boolean alwaysFalse() {
         return false;
     }
 }
