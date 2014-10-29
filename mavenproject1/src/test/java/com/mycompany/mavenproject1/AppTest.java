@@ -44,14 +44,6 @@ public class AppTest
         assertFalse(App.alwaysFalse());
     }
     
-    public void testConstructor(){
-        try{
-            App app = new App();
-        }catch(Exception e){
-            fail("constructor fails");
-        }
-    }
-    
     public void testMain(){
         App.main(new String[]{});
     }
