@@ -24,7 +24,7 @@ public final class App {
      * @return true
      */
     public static boolean alwaysTrue() {
-        return false;
+        return true;
     }
 
     /**
