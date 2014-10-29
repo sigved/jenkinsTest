@@ -4,15 +4,15 @@ package com.mycompany.mavenproject1;
  * Hello world!
  *
  */
-public class App {
+public final class App {
     /**
-     * private constructor, this is a utility class
+     * private constructor, this is a utility class..
      */
     private App() {
     }
-    
+
     /**
-     * the main method
+     * the main method.
      * @param args command line arguments
      */
     public static void main(final String[] args) {
@@ -20,7 +20,7 @@ public class App {
     }
 
     /**
-     * this is always true
+     * this is always true.
      * @return true
      */
     public static boolean alwaysTrue() {
@@ -28,7 +28,7 @@ public class App {
     }
 
     /**
-     * always false
+     * always false.
      * @return false
      */
     public static boolean alwaysFalse() {
