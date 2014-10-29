@@ -6,7 +6,7 @@ package com.mycompany.mavenproject1;
  */
 public final class App {
     /**
-     * private constructor, this is a utility class..
+     * private constructor, this is a utility class.
      */
     private App() {
     }
